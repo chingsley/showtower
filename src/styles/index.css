@@ -1,0 +1,132 @@
+:root {
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-1: hsl(209, 61%, 16%);
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  /* font-family: montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif; */
+  font-family: montserrat;
+  font-family: 'Circular-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  font-size: 0.875rem;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: '#f5f6fa'; */
+  background-color: white;
+  /* background-color: var(--clr-primary-10); */
+  /* color: var(--clr-grey-1); */
+  color: #34495e;
+
+  /* border: 1px solid cyan; */
+  /* width: 100vh; */
+}
+
+code {
+  font-family: montserrat, source-code-pro, Menlo, Monaco, Consolas,
+    'Courier New', monospace;
+}
+
+.app-main {
+  margin-top: 12vh;
+}
+
+/* .toast-container {
+  padding-left: 2rem !important;
+} */
+
+.toast-success-container {
+  color: #000 !important;
+  border-radius: 8px !important;
+  background: #ffffff !important;
+  border: 1px solid #34a853 !important;
+  box-shadow: 0px 1px 5px rgba(248, 175, 175, 0.1) !important;
+  padding-left: 2rem !important;
+}
+
+.toast-success-container-after {
+  overflow: hidden;
+  position: relative;
+}
+
+.toast-success-container-after::after {
+  top: 0;
+  left: 0;
+  content: '';
+  width: 7px;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  background-color: #34a853;
+}
+
+.toast-error-container {
+  color: #000 !important;
+  border-radius: 8px !important;
+  background: #ffb8b8 !important;
+  /* border: 1px solid #34a853 !important; */
+  box-shadow: 0px 1px 5px rgba(248, 175, 175, 0.1) !important;
+  padding-left: 2rem !important;
+}
+
+.toast-error-container-after {
+  overflow: hidden;
+  position: relative;
+}
+
+.toast-error-container-after::after {
+  top: 0;
+  left: 0;
+  content: '';
+  width: 7px;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  background-color: #000;
+}
+
+.inline-display {
+  /* border: 1px solid red; */
+  display: inline;
+}
+
+.projects-page {
+  background-color: lightblue;
+  /* border-bottom: 2px solid #f43544; */
+  /* color: rgba(44, 62, 80, 0.5); */
+}
+
+/* Rectangle 1 */
+
+/* position: absolute;
+width: 331px;
+height: 207px;
+background: #C4C4C4; */
+
+/* dark-bg-img 1 */
+
+/* position: absolute;
+width: 331px;
+height: 207px; 
+background: url(dark-bg-img.png);
+*/
+
+/* ICAD SOLUTION */
+
+/* position: absolute;
+width: 264px;
+height: 82px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000; */

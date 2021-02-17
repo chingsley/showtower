@@ -1,0 +1,125 @@
+/* For Desktop */
+
+.auth-page {
+  /* border: 1px solid salmon; */
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-content {
+  /* border: 1px solid black; */
+  display: flex;
+  height: 32rem;
+  width: 80%;
+}
+
+.page-content > * {
+  height: 100%;
+}
+
+.content-left {
+  /* border: 1px solid yellowgreen; */
+  height: auto;
+  width: 40%;
+  overflow: hidden;
+}
+.content-left > img {
+  /* border: 1px solid blue; */
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.content-right {
+  /* border: 1px solid yellow; */
+  width: 60%;
+  background-color: #fafbfc;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4rem;
+  /* padding-top: 3rem; */
+}
+
+.div__auth-nav:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.auth-nav {
+  /* border: 1px solid grey; */
+  color: #615653;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.auth-nav:hover {
+  color: #34495e;
+}
+
+.fa-user {
+  /* border: 1px solid blue; */
+  color: #eb2f06;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-title {
+  color: black;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* For tablets: */
+  .page-content {
+    /* border: 1px solid rgb(166, 165, 165); */
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+
+  .page-content {
+    /* border: 1px solid red; */
+    width: 90%;
+    /* margin: 0 auto; */
+  }
+
+  .content-left {
+    display: none;
+  }
+
+  /* .fa-user {
+    display: none;
+  } */
+
+  .content-right {
+    /* border: 1px solid green; */
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 2em 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .auth-nav {
+    /* border: 1px solid salmon; */
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+  }
+}
